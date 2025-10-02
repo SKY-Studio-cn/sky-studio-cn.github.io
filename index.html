@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
+  <link rel="icon"type="image/png"href="LOGO.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SKY Studio</title>
@@ -79,7 +80,7 @@
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
       <!-- 导航链接 - 移动端隐藏 -->
       <nav class="hidden md:flex items-center space-x-2">
-        <a href="#" class="nav-item font-medium">首页</a>
+        <a href="#first" class="nav-item font-medium">首页</a>
         <a href="#about" class="nav-item font-medium">关于</a>
       </nav>
       
@@ -107,7 +108,7 @@
     <!-- 移动端菜单 -->
     <div id="mobileMenu" class="md:hidden hidden bg-white border-t border-gray-100">
       <div class="container mx-auto px-4 py-2 flex flex-col space-y-1">
-        <a href="#" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">首页</a>
+        <a href="#first" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">首页</a>
         <a href="#about" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">关于</a>
         <a href="#download" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">下载</a>
         <a href="#more" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">更多</a>
@@ -117,7 +118,7 @@
 
   <main>
     <!-- 展示区域 -->
-    <section class="py-16 md:py-24">
+    <section id="first" class="py-16 md:py-24">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
           <h1 class="text-[clamp(2rem,5vw,3.5rem)] font-bold text-gray-900 mb-6 leading-tight">
@@ -139,11 +140,11 @@
             </div>
             <h3 class="text-xl font-semibold text-center mb-4 text-gray-800">SKY OS/UI</h3>
             <p class="text-gray-600 text-center mb-6">基于 TurboWarp（Scratch 二次开发版）构建的操作系统与用户界面，提供直观易用的交互体验</p>
-            <a href="#" class="block w-full text-center py-3 bg-sky hover:bg-sky-darker text-white rounded-lg transition-colors duration-300">
+            <a href="SKY OSUI.html" class="block w-full text-center py-3 bg-sky hover:bg-sky-darker text-white rounded-lg transition-colors duration-300">
               了解更多
             </a>
           </div>
-          
+
           <!-- SKY Engine -->
           <div class="bg-white rounded-2xl shadow-md p-8 card-hover float-animation-delay">
             <div class="w-24 h-24 mx-auto mb-6 rounded-2xl">
@@ -153,7 +154,7 @@
             </div>
             <h3 class="text-xl font-semibold text-center mb-4 text-gray-800">SKY Engine</h3>
             <p class="text-gray-600 text-center mb-6">TurboWarp 的二次开发版本，作为解释器专门用于运行和测试为 SKY OS/UI 开发的应用程序</p>
-            <a href="#" class="block w-full text-center py-3 bg-sky hover:bg-sky-darker text-white rounded-lg transition-colors duration-300">
+            <a href="SKY Engine.html" class="block w-full text-center py-3 bg-sky hover:bg-sky-darker text-white rounded-lg transition-colors duration-300">
               了解更多
             </a>
           </div>
@@ -167,7 +168,7 @@
             </div>
             <h3 class="text-xl font-semibold text-center mb-4 text-gray-800">SKY Code</h3>
             <p class="text-gray-600 text-center mb-6">仿照 Python 语法设计的专属编程语言，用于编写可在 SKY OS/UI 上运行的应用程序</p>
-            <a href="#" class="block w-full text-center py-3 bg-sky hover:bg-sky-darker text-white rounded-lg transition-colors duration-300">
+            <a href="SKY Code.html" class="block w-full text-center py-3 bg-sky hover:bg-sky-darker text-white rounded-lg transition-colors duration-300">
               了解更多
             </a>
           </div>
@@ -180,8 +181,8 @@
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-8 text-gray-900">关于 SKY Studio</h2>
-          <p class="text-gray-600 mb-6 text-lg">SKY Studio系列产品是一套完整的开发与应用生态，旨在为开发者和用户提供无缝衔接的体验</p>
-          <p class="text-gray-600 mb-10 text-lg">我们注重用户体验与性能的平衡，通过不断创新，让技术更贴近人们的生活与工作。</p>
+          <p class="text-gray-600 mb-6 text-lg">SKY 系列产品是 SKY Studio 开发的一套完整的开发与应用生态，旨在为开发者和用户提供无缝衔接的体验</p>
+          <p class="text-gray-600 mb-10 text-lg">我们注重用户体验与性能的平衡，通过不断创新，让技术更贴近人们的生活与工作</p>
           
           <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div class="p-6 rounded-xl bg-sky-light/50">
@@ -209,7 +210,7 @@
       <div class="container mx-auto px-4">
         <div class="max-w-3xl mx-auto text-center">
           <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold mb-6 text-gray-900">下载中心</h2>
-          <p class="text-gray-600 mb-10 text-lg">获取最新版本的 SKY Studio系列产品，体验前沿科技带来的卓越感受</p>
+          <p class="text-gray-600 mb-10 text-lg">获取最新版本的 SKY 系列产品，体验前沿科技带来的卓越感受</p>
           
           <div class="bg-white rounded-2xl shadow-lg p-8">
             <div class="flex flex-col md:flex-row items-center justify-between gap-6">
@@ -226,7 +227,7 @@
                 </div>
               </div>
               
-              <a href="#" class="w-full md:w-auto py-3 px-8 bg-sky-darker hover:bg-sky-darker/90 text-white rounded-lg transition-colors duration-300 flex items-center justify-center gap-2">
+              <a href="https://www.123pan.com/" class="w-full md:w-auto py-3 px-8 bg-sky-darker hover:bg-sky-darker/90 text-white rounded-lg transition-colors duration-300 flex items-center justify-center gap-2">
                 <i class="fa fa-download"></i>
                 <span>立即下载</span>
               </a>
@@ -235,21 +236,21 @@
             <div class="mt-8 pt-8 border-t border-gray-100">
               <h4 class="text-lg font-medium mb-4 text-left">单独下载</h4>
               <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                <a href="#" class="p-4 border border-gray-200 rounded-lg hover:border-sky-darker hover:bg-sky-light/50 transition-colors flex items-center gap-3">
+                <a href="https://www.123pan.com/" class="p-4 border border-gray-200 rounded-lg hover:border-sky-darker hover:bg-sky-light/50 transition-colors flex items-center gap-3">
                   <i class="fa fa-desktop text-sky-darker"></i>
                   <div class="text-left">
                     <p class="font-medium">SKY OS/UI</p>
                     <p class="text-sm text-gray-500">v1.8.2</p>
                   </div>
                 </a>
-                <a href="#" class="p-4 border border-gray-200 rounded-lg hover:border-sky-darker hover:bg-sky-light/50 transition-colors flex items-center gap-3">
+                <a href="https://www.123pan.com/" class="p-4 border border-gray-200 rounded-lg hover:border-sky-darker hover:bg-sky-light/50 transition-colors flex items-center gap-3">
                   <i class="fa fa-cogs text-sky-darker"></i>
                   <div class="text-left">
                     <p class="font-medium">SKY Engine</p>
                     <p class="text-sm text-gray-500">v3.2.1</p>
                   </div>
                 </a>
-                <a href="#" class="p-4 border border-gray-200 rounded-lg hover:border-sky-darker hover:bg-sky-light/50 transition-colors flex items-center gap-3">
+                <a href="https://www.123pan.com/" class="p-4 border border-gray-200 rounded-lg hover:border-sky-darker hover:bg-sky-light/50 transition-colors flex items-center gap-3">
                   <i class="fa fa-code text-sky-darker"></i>
                   <div class="text-left">
                     <p class="font-medium">SKY Code</p>
@@ -276,8 +277,8 @@
                   <i class="fa fa-book text-sky-darker text-xl"></i>
                 </div>
                 <div>
-                  <h3 class="font-semibold text-lg mb-2">文档中心</h3>
-                  <p class="text-gray-600 mb-4">详细的产品文档、开发指南和API参考，帮助您快速上手</p>
+                  <h3 class="font-semibold text-lg mb-2">开发者文档</h3>
+                  <p class="text-gray-600 mb-4">详细的产品文档、开发指南和API参考，帮助开发者快速上手</p>
                   <a href="#" class="text-sky-darker hover:text-sky-darker/80 font-medium inline-flex items-center gap-1">
                     浏览文档 <i class="fa fa-arrow-right text-sm"></i>
                   </a>
@@ -292,8 +293,8 @@
                 </div>
                 <div>
                   <h3 class="font-semibold text-lg mb-2">开发者学院</h3>
-                  <p class="text-gray-600 mb-4">教程、视频课程和实战项目，提升您的开发技能</p>
-                  <a href="#" class="text-sky-darker hover:text-sky-darker/80 font-medium inline-flex items-center gap-1">
+                  <p class="text-gray-600 mb-4">教程、视频课程和实战项目，提升开发者的开发技能</p>
+                  <a href="httpbilibili.com" class="text-sky-darker hover:text-sky-darker/80 font-medium inline-flex items-center gap-1">
                     开始学习 <i class="fa fa-arrow-right text-sm"></i>
                   </a>
                 </div>
@@ -443,7 +444,7 @@
         </div>
         
         <div class="pt-8 border-t border-gray-800 text-center text-sm">
-          <p>&copy; 2023 SKY Studio. 保留所有权利.</p>
+          <p>&copy; 2025 SKY Studio. 保留所有权利.</p>
         </div>
       </div>
     </div>
