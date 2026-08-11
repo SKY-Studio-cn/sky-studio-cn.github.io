@@ -132,7 +132,8 @@
 
       <nav class="hidden md:flex items-center space-x-2">
         <a href="#tools" class="nav-item font-medium">工具</a>
-        <a href="#download" class="nav-item font-medium">下载</a>
+        <a href="download.html" class="nav-item font-medium">下载</a>
+        <a href="repos.html" class="nav-item font-medium">仓库</a>
       </nav>
 
       <button id="menuBtn" class="md:hidden text-gray-700 focus:outline-none">
@@ -146,7 +147,8 @@
         <a href="#features" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">特性</a>
         <a href="#products" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">产品</a>
         <a href="#tools" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">工具</a>
-        <a href="download.html" target="_blank" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">下载</a>
+        <a href="download.html" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">下载</a>
+        <a href="repos.html" class="py-3 px-4 hover:bg-sky-light rounded-md transition-colors">仓库</a>
       </div>
     </div>
   </header>
@@ -265,7 +267,7 @@
                 <h3 class="font-semibold text-gray-800 text-lg">SKY OS/UI</h3>
                 <p class="text-gray-400 text-sm">Operating System &amp; UI</p>
                 <p class="text-gray-500 text-sm mt-2 leading-relaxed">基于 TurboWarp 构建的桌面操作系统与用户界面，提供直观流畅的交互体验。v1.8.2</p>
-                <a href="SKY OSUI.html" class="inline-flex items-center gap-1 text-sky-darker hover:text-sky-darker/80 text-sm font-medium mt-3 transition-colors">
+                <a href="SKY OSUI.html" target="_blank" class="inline-flex items-center gap-1 text-sky-darker hover:text-sky-darker/80 text-sm font-medium mt-3 transition-colors">
                   了解更多 <i class="fa fa-arrow-right text-xs"></i>
                 </a>
               </div>
@@ -283,7 +285,7 @@
                 <h3 class="font-semibold text-gray-800 text-lg">SKY Editor</h3>
                 <p class="text-gray-400 text-sm">Runtime &amp; Interpreter</p>
                 <p class="text-gray-500 text-sm mt-2 leading-relaxed">TurboWarp 深度定制版解释器，专为运行 SKY OS/UI 应用优化。v3.2.1</p>
-                <a href="SKY Editor.html" class="inline-flex items-center gap-1 text-sky-darker hover:text-sky-darker/80 text-sm font-medium mt-3 transition-colors">
+                <a href="SKY Editor.html" target="_blank" class="inline-flex items-center gap-1 text-sky-darker hover:text-sky-darker/80 text-sm font-medium mt-3 transition-colors">
                   了解更多 <i class="fa fa-arrow-right text-xs"></i>
                 </a>
               </div>
@@ -301,7 +303,7 @@
                 <h3 class="font-semibold text-gray-800 text-lg">SKY Code</h3>
                 <p class="text-gray-400 text-sm">Programming Language</p>
                 <p class="text-gray-500 text-sm mt-2 leading-relaxed">仿 Python 语法的专属编程语言，简洁优雅，专为 SKY 生态设计。v2.0.5</p>
-                <a href="SKY Code.html" class="inline-flex items-center gap-1 text-sky-darker hover:text-sky-darker/80 text-sm font-medium mt-3 transition-colors">
+                <a href="SKY Code.html" target="_blank" class="inline-flex items-center gap-1 text-sky-darker hover:text-sky-darker/80 text-sm font-medium mt-3 transition-colors">
                   了解更多 <i class="fa fa-arrow-right text-xs"></i>
                 </a>
               </div>
@@ -359,59 +361,12 @@
           <h2 class="text-[clamp(1.6rem,3vw,2.5rem)] font-bold text-gray-900 mb-4">准备好开始了吗？</h2>
           <p class="text-gray-400 text-lg mb-10">Ready to Build? Download the Full Developer Suite</p>
 
-          <div class="card-hover bg-white rounded-2xl shadow-lg p-8 md:p-10">
-            <!-- 主下载 -->
-            <div class="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
-              <div class="flex items-center gap-4 text-left">
-                <div class="w-16 h-16 rounded-xl flex items-center justify-center">
-                  <img src="File.svg" alt="Suite">
-                </div>
-                <div>
-                  <h3 class="font-semibold text-xl text-gray-800">SKY Studio 开发者套件</h3>
-                  <p class="text-gray-500 text-sm">包含所有 SKY Studio 产品和开发者工具的完整套装</p>
-                  <p class="text-sky-darker font-medium mt-1">版本 2.5.2</p>
-                </div>
-              </div>
-              <a href="https://1814163603.share.123pan.cn/123pan/fedbVv-NrAq" class="btn-glow w-full md:w-auto px-8 py-3.5 bg-sky-darker hover:bg-sky-darker/90 text-white rounded-xl font-semibold inline-flex items-center justify-center gap-2 whitespace-nowrap">
-                <i class="fa fa-download"></i>
-                <span>立即下载</span>
-              </a>
-            </div>
-
-            <!-- 单独下载 -->
-            <div class="pt-6 border-t border-gray-100">
-              <h4 class="text-base font-medium text-gray-700 mb-4 text-left">单独下载 Individual Downloads</h4>
-              <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-                <a href="https://1814163603.share.123pan.cn/123pan/fedbVv-NrAq" class="card-hover p-4 border border-gray-200 rounded-lg flex items-center gap-3">
-                  <i class="fa fa-desktop text-sky-darker"></i>
-                  <div class="text-left">
-                    <p class="font-medium text-gray-800">SKY OS/UI</p>
-                    <p class="text-sm text-gray-500">v1.8.2</p>
-                  </div>
-                </a>
-                <a href="https://1814163603.share.123pan.cn/123pan/fedbVv-NrAq" class="card-hover p-4 border border-gray-200 rounded-lg flex items-center gap-3">
-                  <i class="fa fa-cogs text-sky-darker"></i>
-                  <div class="text-left">
-                    <p class="font-medium text-gray-800">SKY Editor</p>
-                    <p class="text-sm text-gray-500">v3.2.1</p>
-                  </div>
-                </a>
-                <a href="https://1814163603.share.123pan.cn/123pan/fedbVv-NrAq" class="card-hover p-4 border border-gray-200 rounded-lg flex items-center gap-3">
-                  <i class="fa fa-code text-sky-darker"></i>
-                  <div class="text-left">
-                    <p class="font-medium text-gray-800">SKY Code</p>
-                    <p class="text-sm text-gray-500">v2.0.5</p>
-                  </div>
-                </a>
-              </div>
-              <a href="https://github.com/SKY-Studio-cn/SKY-UI/blob/main/SKYUI%E5%BC%80%E5%8F%91%E8%80%85%E5%8D%8F%E8%AE%AE%EF%BC%88%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87%EF%BC%89.md" class="card-hover mt-3 p-4 border border-gray-200 rounded-lg flex items-center gap-3">
-                <i class="fa fa-file-text-o text-sky-darker"></i>
-                <div class="text-left">
-                  <p class="font-medium text-gray-800">开发者协议</p>
-                  <p class="text-sm text-gray-500">Developer Agreement v1.0.0</p>
-                </div>
-              </a>
-            </div>
+          <div class="card-hover bg-white rounded-2xl shadow-lg p-8 md:p-10 text-center">
+            <h3 class="text-2xl font-bold text-gray-900 mb-3">SKY Studio 项目堆</h3>
+            <p class="text-gray-400 text-sm mb-8">Project Stack</p>
+            <a href="download.html" class="btn-glow inline-flex items-center gap-2 px-10 py-4 bg-sky-darker hover:bg-sky-darker/90 text-white rounded-xl font-semibold text-base">
+              <i class="fa fa-download"></i> 前往下载 Go to Download
+            </a>
           </div>
         </div>
       </div>
